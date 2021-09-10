@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.titletext{
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-bottom: 64px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    text-transform: uppercase;
+    
+    color: #333333;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.leftSide{
+    display: flex;
+    flex-direction: row;
+}
+.leftSideImage{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+
+}
